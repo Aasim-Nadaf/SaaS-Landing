@@ -5,12 +5,12 @@ import { motion } from "motion/react";
 export const LogoCloud = () => {
   const logo = [
     {
-      title: "ChatGPT",
-      src: "/ChatGPT.svg",
-    },
-    {
       title: "Meta",
       src: "/Meta.svg",
+    },
+    {
+      title: "Epic Games",
+      src: "/EpicGames.svg",
     },
     {
       title: "Google",
@@ -31,7 +31,7 @@ export const LogoCloud = () => {
   ];
 
   return (
-    <div className="z-50 md:mt-40 px-4 py-32">
+    <div className="z-50 md:mt-40 px-4 py-16">
       <h2 className="text-neutral-600 font-medium dark:text-neutral-400 text-lg text-center max-w-xl mx-auto mb-10">
         Trusted by the world's leading companies <br />
         <span className="text-neutral-400 text-base">
@@ -67,7 +67,7 @@ export const LogoCloud = () => {
                 alt={title}
                 width={150}
                 height={150}
-                className="object-contain grayscale-0 opacity-60 hover:grayscale-100 hover:opacity-100 transition-all"
+                className="object-contain grayscale-0 hover:grayscale-100 transition-all"
               />
             </motion.div>
           ))}
