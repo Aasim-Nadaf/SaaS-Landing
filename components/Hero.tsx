@@ -2,8 +2,6 @@ import { Container } from "./Container";
 import { Heading } from "./Heading";
 import { Subheading } from "./Subheading";
 import { Button } from "./ui/button";
-import Image from "next/image";
-import { cn } from "@/lib/utils";
 import { LandingImages } from "./LandingImages";
 
 export const Hero = () => {

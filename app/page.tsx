@@ -1,3 +1,4 @@
+import Features from "@/components/Features/Features";
 import { Hero } from "@/components/Hero";
 import { LogoCloud } from "@/components/LogoCloud/Logo-Cloud";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Hero />
       <LogoCloud />
+      <Features />
     </div>
   );
 }

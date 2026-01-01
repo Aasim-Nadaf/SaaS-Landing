@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Aura Marketing Template - Quest UI",
   description: "Aura Marketing Template built with Quest UI components.",
   icons: {
-    icon: "/file.svg",
+    icon: "/logo.svg",
   },
 };
 
