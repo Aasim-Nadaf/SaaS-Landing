@@ -8,7 +8,7 @@ import { SkeletonOne } from "../Skeletons/First";
 export default function Features() {
   return (
     <Container className="py-10">
-      <div className="flex">
+      <div className="flex flex-col md:flex-row ">
         <Heading>Build for developers by developers</Heading>
         <Subheading>
           Aura is built with a developer-first mindset, ensuring seamless
@@ -16,7 +16,7 @@ export default function Features() {
         </Subheading>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:my-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:my-20">
         <Card className="rounded-tl-3xl rounded-bl-3xl">
           <CardSkeleton>
             <SkeletonOne />

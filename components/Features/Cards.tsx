@@ -77,7 +77,10 @@ export const CardSkeleton = ({
 }) => {
   return (
     <div
-      className={cn("min-h-56 md:min-h-80 relative overflow-hidden", className)}
+      className={cn(
+        "min-h-56 md:min-h-80 relative overflow-hidden mask-radial-from-20%",
+        className
+      )}
     >
       {children}
     </div>

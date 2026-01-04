@@ -30,7 +30,7 @@ export const SkeletonOne = () => {
         icon={<IconExclamationCircle className="size-5" />}
       />
       <SkeletonCard
-        className="absolute bottom-32 left-0 right-0 mx-auto w-[90%] max-w-[90%]"
+        className="absolute bottom-36 left-0 right-0 mx-auto w-[90%] max-w-[90%]"
         title="Deploying to Workspace"
         description="Create a custom Aura Agent tailored to your workspace needs. Provide"
         badge={<Badge text="40S" varient="warning" />}

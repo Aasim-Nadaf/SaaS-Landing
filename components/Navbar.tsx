@@ -74,7 +74,11 @@ export const MobileNavbar = () => {
                       delay: index * 0.1,
                     }}
                   >
-                    <Link href={link.href} key={index}>
+                    <Link
+                      href={link.href}
+                      key={index}
+                      onClick={() => setOpen(false)}
+                    >
                       {link.title}
                     </Link>
                   </motion.div>
